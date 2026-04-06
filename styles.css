@@ -1,0 +1,79 @@
+  /* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background: #000000;
+  color: #fff;
+  height: 100vh;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 80px;
+  padding-top: 1.5rem;
+  padding-bottom: 7rem;
+}
+
+/* Container */
+.drum-machine {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Grid layout */
+.grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Pads */
+.pad {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* keeps squares */
+  border: 3px solid #b1b1b1;
+  border-radius: 12px;
+  background: #3a3939;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight:normal;
+  cursor: pointer;;
+  box-shadow: 5px 5px;
+
+  /* Smooth interaction */
+  transition: 
+    transform 0.08s ease,
+    border-color 0.08s ease,
+    background 0.08s ease;
+}
+
+/* Press effect */
+.pad:active,
+.pad.active {
+  transform: scale(1.1);
+  border-color: #ff1e00;
+  box-shadow: 5px 5px #ff1e00;
+  background: #333;
+}
+
+/* Optional: remove mobile tap highlight */
+.pad {
+  -webkit-tap-highlight-color: transparent;
+}
+
