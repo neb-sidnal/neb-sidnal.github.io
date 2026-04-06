@@ -21,6 +21,11 @@ body {
   padding-bottom: 7rem;
 }
 
+.subtitle {
+  font-size: 30px;
+  font-style: italic;
+}
+
 /* Container */
 .drum-machine {
   width: 95vw;
