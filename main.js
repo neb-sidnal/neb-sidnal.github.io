@@ -40,3 +40,12 @@ pads.forEach(pad => {
     pad.classList.remove("active");
   });
 });
+
+  // Show popup on page load
+  window.onload = function() {
+    document.getElementById("popupOverlay").style.display = "flex";
+  };
+
+  function closePopup() {
+    document.getElementById("popupOverlay").style.display = "none";
+  }
