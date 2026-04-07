@@ -32,7 +32,7 @@ const soundMap = {
   whitenoise: "sounds/whitenoise.mp3",
   feedback: "sounds/feedback.mp3",
   clock: "sounds/clock.mp3",
-  unlockeddoor: "sounds/unlocked door"
+  unlockeddoor: "sounds/unlockeddoor.mp3"
 };
 
 // Play sound function
