@@ -1,12 +1,12 @@
 
 // Show popup on page load
-  window.onload = function() {
-    document.getElementById("popupOverlay").style.display = "flex";
-  };
+window.onload = function () {
+  document.getElementById("popupOverlay").style.display = "flex";
+};
 
-  function closePopup() {
-    document.getElementById("popupOverlay").style.display = "none";
-  }
+function closePopup() {
+  document.getElementById("popupOverlay").style.display = "none";
+}
 
 // Map sounds to file paths
 const soundMap = {
@@ -23,7 +23,16 @@ const soundMap = {
   synthpad: "sounds/synthpad.mp3",
   bubblewrap: "sounds/bubblewrap.mp3",
   bells: "sounds/bells.mp3",
-  bikechain: "sounds/bikechain.mp3"
+  bikechain: "sounds/bikechain.mp3",
+  bird: "sounds/bird.mp3",
+  cello: "sounds/cello.mp3",
+  washingmachine: "sounds/washingmachine.mp3",
+  glass: "sounds/glass.mp3",
+  timpani: "sounds/timpani.mp3",
+  whitenoise: "sounds/whitenoise.mp3",
+  feedback: "sounds/feedback.mp3",
+  clock: "sounds/clock.mp3",
+  
 };
 
 // Play sound function

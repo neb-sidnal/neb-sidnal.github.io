@@ -13,12 +13,13 @@ body {
   /*display: flex;*/
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 #title {
   font-size: 80px;
   padding-top: 1.5rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .subtitle {
@@ -46,6 +47,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  padding-bottom: 25px;
 }
 
 /* Pads */
@@ -107,7 +109,7 @@ h1 {
       height: 40vh;
       text-align: center;
       font-size: 50px;
-      box-shadow: 20px 25px 25px rgba(213, 11, 11, 0.3);
+      box-shadow: 20px 25px 25px rgba(246, 241, 241, 0.531);
     }
 
     .close {
@@ -119,7 +121,7 @@ h1 {
       color: rgb(8, 8, 8);
       border-radius: 4px;
       cursor: pointer;
-      font-size: 30px;
+      font-size: 35px;
       box-shadow: 4px 4px #9eb0c4;
     }
 
