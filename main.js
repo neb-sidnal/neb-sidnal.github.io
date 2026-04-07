@@ -1,3 +1,13 @@
+
+// Show popup on page load
+  window.onload = function() {
+    document.getElementById("popupOverlay").style.display = "flex";
+  };
+
+  function closePopup() {
+    document.getElementById("popupOverlay").style.display = "none";
+  }
+
 // Map sounds to file paths
 const soundMap = {
   kick808: "sounds/kick808.mp3",
@@ -41,11 +51,3 @@ pads.forEach(pad => {
   });
 });
 
-  // Show popup on page load
-  window.onload = function() {
-    document.getElementById("popupOverlay").style.display = "flex";
-  };
-
-  function closePopup() {
-    document.getElementById("popupOverlay").style.display = "none";
-  }
